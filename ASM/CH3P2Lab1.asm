@@ -1,7 +1,8 @@
 ## Program to represent 1.0
 
         .data
-val1:    .float  1.0 
+##val1:    .float  1.0 
+val1:    .float  0x00800000 
 	.text
         .globl  main
 
