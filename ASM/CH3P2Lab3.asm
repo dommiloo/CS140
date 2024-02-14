@@ -1,13 +1,14 @@
-## Program to represent 1.0
+## Program that subtract the Largest Denormalized Number from the Smallest Normalized Number
+
 
         .data
-val1:    .word  0x00800000 
-val2:    .word  0x007FFFFF
+val1:    .word  0x00800000      # Smallest Normalized Number
+val2:    .word  0x007FFFFF      # Largest Denormalized Number
 	.text
-        .globl  main
+    .globl  main
 
 main:
-    li $v0, 2 	# print floating service code
+    li      $v0, 2 	# print floating service code
     lwc1 	$f5, val1
     lwc1 	$f7, val2
     sub.s 	$f12, $f5, $f7
