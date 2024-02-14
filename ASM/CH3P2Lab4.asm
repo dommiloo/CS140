@@ -1,7 +1,7 @@
 ## Program to represent 1.0
 
         .data
-val1:    .word  0x7FFFFFFF
+val1:    .word  0x7F7FFFFF
 val2:    .float 1000.0
 	.text
         .globl  main
