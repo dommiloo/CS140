@@ -12,6 +12,6 @@ main:
     l.s 	$f7, val2 
     mul.s 	$f9, $f5, $f7
     li 	    $v0, 2		
-    mov.s   $t0, $f9
+    mfc1   $t0, $f9
     syscall
 ## End of file
