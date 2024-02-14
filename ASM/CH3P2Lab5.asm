@@ -9,7 +9,7 @@ val2:    .float 1000.0
 main:
     li $v0, 2 	# print floating service code
 
-    l.i		$t0, 0
+    li		$t0, 0
     mtc1 	$t0, $f2        # $t0 = 0;
     cvt.s.w 	$f4, $f2    # Convert the double precision number to single precision
     div.s 	$f9, $f4, $f4   # Largest Number / 0
