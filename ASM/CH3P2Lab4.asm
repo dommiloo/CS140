@@ -2,7 +2,7 @@
 
         .data
 val1:    .word  0x7FFFFFFF
-val2:    .float 1.0E3
+val2:    .float 1000.0
 	.text
         .globl  main
 
