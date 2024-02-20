@@ -10,7 +10,7 @@ main:
     li $v0, 2 	# print floating service code
 	lwc1 $f11, val1
 	move $a0, $v0
-	mfc1 $t1, $f12
+	mfc1 $t1, $f11
 	syscall
 	lwc1 $f12, val2
 	move $a0, $v0
