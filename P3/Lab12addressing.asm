@@ -17,7 +17,7 @@
 .data
 	num: 	.word	1, 2, 3	# $t0 : addres of num
 	N:		.word	3			# $t2 : N
-	sum:	.word	t0			# $t3 : sum	
+	sum:	.word	0			# $t3 : sum	
 ################# Code segment #####################
 .text
 .globl main
